@@ -2,13 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  HashRouter,
+  RouterProvider,
+} from "react-router-dom";
 import Home from "./Home.jsx";
 import About from "./About.jsx";
 import Contact from "./Contact.jsx";
 import Services from "./Services.jsx";
 import Teams from "./Teams.jsx";
-const router = createBrowserRouter([
+const router = HashRouter([
   {
     path: "/",
     element: <App />,

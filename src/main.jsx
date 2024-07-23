@@ -12,7 +12,7 @@ import About from "./About.jsx";
 import Contact from "./Contact.jsx";
 import Services from "./Services.jsx";
 import Teams from "./Teams.jsx";
-const router = HashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,

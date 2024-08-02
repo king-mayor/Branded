@@ -14,7 +14,7 @@ const Team = () => {
         <h1 className="text-4xl text-white text-roboto font-bold text-center">
           Our Teams
         </h1>
-        <p className="text-white text-lg text-center py-8">
+        <p className="text-white text-lg text-center py-8 px-8">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
           suscipit quo ullam reiciendis blanditiis provident eligendi pariatur
           delectus! Facere a at soluta officiis provident veniam atque quam

@@ -108,11 +108,11 @@ const Navbar = () => {
       </div>
       {/* {Modal popup} */}
       {modal && (
-        <div>
-          <div className="flex justify-center lg:flex-row flex-col items-center my-16 py-10 gap-10 fixed inset-0 opacity-85 bg-black z-50">
+        <div className="">
+          <div className="flex justify-center lg:flex-row flex-col items-center my-16 py-40 w-full h-screen gap-10 fixed inset-0 opacity-85 bg-black z-50">
             <div className="lg:w-1/2 w-full lg:px-0 px-10">
               <div className="bg-blue-600 py-20 rounded-lg relative">
-                <div className="absolute top-2 right-10 text-3xl text-gray-100">
+                <div className="absolute text-white font-bold right-5 top-5">
                   <IoClose
                     className="text-4xl font-bold cursor-pointer"
                     onClick={() => setModal(false)}

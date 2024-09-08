@@ -6,7 +6,7 @@ import { MdMarkEmailRead } from "react-icons/md";
 const BrandContact = () => {
   return (
     <div className="flex justify-center lg:flex-row flex-col items-center my-14 gap-10">
-      <div>
+      <div data-aos="zoom-in-right" data-aos-duration="2000">
         <div className="flex gap-8 my-8 lg:flex-nowrap flex-wrap justify-center">
           <div className="bg-gray-200 text-center flex  flex-col justify-center items-center p-8 w-64 h-64 rounded-lg">
             <FaLocationDot className="text-5xl text-red-500 font-bold cursor-pointer hover:text-blue-600" />
@@ -48,7 +48,11 @@ const BrandContact = () => {
       </div>
 
       {/* {Input Section} */}
-      <div className="lg:w-1/2 w-full lg:px-0 px-10">
+      <div
+        className="lg:w-1/2 w-full lg:px-0 px-10"
+        data-aos="zoom-in-left"
+        data-aos-duration="2000"
+      >
         <div className="bg-blue-600 py-20 rounded-lg">
           <h1 className="text-5xl font-roboto font-bold capitalize text-center pb-12 text-gray-100">
             contact us

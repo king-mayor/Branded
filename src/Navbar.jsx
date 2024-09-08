@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 bg-white">
+      <div className="fixed top-0 left-0 right-0 bg-white z-50">
         <div className="flex md:justify-around text-center items-center border-b-2 border-gray-200 py-3 justify-between relative">
           <div>
             <h1 className="font-bold md:text-4xl font-roboto text-xl">

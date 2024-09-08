@@ -7,7 +7,11 @@ const Brand = () => {
   return (
     <div>
       <div className="flex justify-around items-center px-14 lg:flex-row flex-col">
-        <div className="lg:w-1/2">
+        <div
+          className="lg:w-1/2"
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
+        >
           <h1 className="md:text-5xl font-bold font-roboto text-4xl leading-10">
             Boost Your Brand<br></br> With These Key<br></br> Features
           </h1>
@@ -38,7 +42,7 @@ const Brand = () => {
             read more
           </button>
         </div>
-        <div>
+        <div data-aos="zoom-in-up" data-aos-duration="2000">
           <img className="" src={Branding3} alt="Branding-img" />
         </div>
       </div>

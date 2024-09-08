@@ -15,13 +15,21 @@ const Contact = () => {
         </div>
         {/* {Contact Background} */}
         <div className="bg-[url('./assets/contactbackground2.jpg')] w-full h-[500px] my-24 bg-cover bg-no-repeat bg-center">
-          <h1 className="lg:text-6xl text-4xl text-roboto text-gray-600 flex justify-center items-center font-bold uppercase py-10">
+          <h1
+            className="lg:text-6xl text-4xl text-roboto text-gray-600 flex justify-center items-center font-bold uppercase py-10"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             contact us
           </h1>
         </div>
         {/* {Contact Information} */}
         <div className="flex lg:justify-around justify-center lg:flex-row flex-col items-center my-14 gap-10 px-10">
-          <div className="lg:w-1/2 w-full">
+          <div
+            className="lg:w-1/2 w-full"
+            data-aos="zoom-in-right"
+            data-aos-duration="2000"
+          >
             <div>
               <h2 className="font-bold font-roboto lg:text-4xl text-3xl capitalize">
                 Talk with us
@@ -66,7 +74,11 @@ const Contact = () => {
           </div>
 
           {/* {Input Section} */}
-          <div className="lg:w-1/2 w-full lg:px-0 px-2">
+          <div
+            className="lg:w-1/2 w-full lg:px-0 px-2"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
             <div className="bg-gray-600 py-20 rounded-lg">
               <h1 className="lg:text-5xl text-3xl font-roboto font-bold capitalize text-center pb-12 text-gray-100">
                 contact us

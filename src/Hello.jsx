@@ -5,10 +5,10 @@ const Hello = () => {
   return (
     <div>
       <div className="flex justify-bwtween items-center py-10 px-12 lg:flex-row flex-col lg:gap-0 gap-10">
-        <div>
+        <div data-aos="slide-right" data-aos-duration="2000">
           <img className="" src={Banner2} alt="Banner-img" />
         </div>
-        <div>
+        <div data-aos="slide-left" data-aos-duration="2000">
           <h1 className="text-black md:text-6xl text-4xl font-bold font-roboto">
             Hello. We've been<br></br> expecting you
           </h1>

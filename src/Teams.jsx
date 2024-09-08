@@ -20,7 +20,11 @@ const Teams = () => {
           <div>
             <Navbar />
           </div>
-          <div className="my-24 bg-slate-800 flex flex-col justify-center text-center py-14 px-10">
+          <div
+            className="my-24 bg-slate-800 flex flex-col justify-center text-center py-14 px-10"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <h2 className="lg:text-3xl text-xl font-bold font-roboto capitalize text-slate-400">
               our team
             </h2>
@@ -43,7 +47,11 @@ const Teams = () => {
               </h1>
             </div>
             <div className="flex lg:justify-center lg:flex-row flex-col items-center gap-8">
-              <div className="lg:w-1/4 w-full">
+              <div
+                className="lg:w-1/4 w-full"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <img className="w-64 h-64" src={guy1} alt="designer1" />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   nicolas wang
@@ -55,7 +63,11 @@ const Teams = () => {
                   Lorem ipsum dolor sit amet.
                 </p>
               </div>
-              <div className="lg:w-1/4 w-full">
+              <div
+                className="lg:w-1/4 w-full"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <img className="w-64 h-64" src={babe1} alt="designer2" />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   caitling king
@@ -67,7 +79,11 @@ const Teams = () => {
                   Lorem ipsum dolor sit amet.
                 </p>
               </div>
-              <div className="lg:w-1/4 w-full">
+              <div
+                className="lg:w-1/4 w-full"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <img className="w-64 h-64" src={guy2} alt="designer3" />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   zaid schwartz
@@ -79,7 +95,11 @@ const Teams = () => {
                   Lorem ipsum dolor sit amet.
                 </p>
               </div>
-              <div className="lg:w-1/4 w-full">
+              <div
+                className="lg:w-1/4 w-full"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <img className="w-64 h-64" src={guy4} alt="designer4" />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   marco kelly
@@ -101,7 +121,11 @@ const Teams = () => {
               </h1>
             </div>
             <div className="flex lg:justify-center lg:flex-row flex-col items-center gap-8">
-              <div className="lg:w-1/4 w-full">
+              <div
+                className="lg:w-1/4 w-full"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <img className="w-64 h-64" src={guy3} alt="designer1" />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   nicolas Gibbons
@@ -113,7 +137,11 @@ const Teams = () => {
                   Lorem ipsum dolor sit amet.
                 </p>
               </div>
-              <div className="lg:w-1/4 w-full">
+              <div
+                className="lg:w-1/4 w-full"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <img className="w-64 h-64" src={babe2} alt="designer2" />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   sienna hewitt
@@ -125,7 +153,11 @@ const Teams = () => {
                   Lorem ipsum dolor sit amet.
                 </p>
               </div>
-              <div className="lg:w-1/4 w-full">
+              <div
+                className="lg:w-1/4 w-full"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <img className="w-64 h-64" src={guy5} alt="designer3" />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   orlando canno
@@ -137,7 +169,11 @@ const Teams = () => {
                   Lorem ipsum dolor sit amet.
                 </p>
               </div>
-              <div className="lg:w-1/4 w-full">
+              <div
+                className="lg:w-1/4 w-full"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <img className="w-64 h-64" src={babe4} alt="designer4" />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   zahra christensen
@@ -153,7 +189,11 @@ const Teams = () => {
           </div>
         </div>
         {/* {Footer Section} */}
-        <div className="bg-gray-600 py-4">
+        <div
+          className="bg-gray-600 py-4"
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
+        >
           <h2 className="text-lg font-roboto font-bold text-gray-100 text-center">
             Designed & Developed by: Mayowa Odegbaro..
           </h2>

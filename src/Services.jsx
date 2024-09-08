@@ -12,7 +12,11 @@ const Services = () => {
         <Navbar />
       </div>
       <div className="flex lg:justify-around lg:flex-row flex-col-reverse items-center my-20 bg-blue-600 py-14 lg:gap-0 gap-10">
-        <div className="lg:w-1/2 w-full lg: lg:px-0 px-8">
+        <div
+          className="lg:w-1/2 w-full lg: lg:px-0 px-8"
+          data-aos="zoom-in-right"
+          data-aos-duration="2000"
+        >
           <h1 className="lg:text-5xl text-3xl font-roboto font-bold text-gray-100 capitalize">
             Increase your business with us!
           </h1>
@@ -29,13 +33,17 @@ const Services = () => {
             register now
           </button>
         </div>
-        <div className="">
+        <div className="" data-aos="zoom-in-left" data-aos-duration="2000">
           <img
             className="lg:w-[600px] lg:h-[600px] w-[400px] h-[400px] rounded-full lg:px-0 px-8"
             src={services2}
             alt="services-bg"
           />
-          <div className="flex text-center pt-8 justify-around">
+          <div
+            className="flex text-center pt-8 justify-around"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <div>
               <h1 className="lg:text-4xl text-2xl font-bold font-roboto text-gray-100">
                 450+
@@ -73,14 +81,18 @@ const Services = () => {
       </div>
       {/* {Brand Advertisement} */}
       <div className="flex lg:justify-center lg:flex-row flex-col items-center gap-10 pb-20">
-        <div>
+        <div data-aos="zoom-in-up" data-aos-duration="2000">
           <img
             className="lg:w-[400px] lg:h-[300px] w-full"
             src={brand1}
             alt="brand-img"
           />
         </div>
-        <div className="lg:w-[400px] lg:h-[300px] w-full bg-gray-600 p-8">
+        <div
+          className="lg:w-[400px] lg:h-[300px] w-full bg-gray-600 p-8"
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
+        >
           <h2 className="text-3xl font-bold font-roboto capitalize pt-6 text-gray-100">
             digital transformation
           </h2>
@@ -90,7 +102,11 @@ const Services = () => {
             eligendi culpa unde.
           </p>
         </div>
-        <div className="lg:w-[400px] lg:h-[300px] w-full bg-gray-200 p-8">
+        <div
+          className="lg:w-[400px] lg:h-[300px] w-full bg-gray-200 p-8"
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
+        >
           <h2 className="text-3xl font-bold font-roboto capitalize pt-6 text-gray-600">
             product branding
           </h2>

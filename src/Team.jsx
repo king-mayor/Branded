@@ -21,7 +21,11 @@ const Team = () => {
           illo.
         </p>
         <div className="flex justify-around lg:flex-row flex-col gap-10 px-6">
-          <div className="bg-white flex justify-center items-center flex-col p-6 rounded-lg">
+          <div
+            className="bg-white flex justify-center items-center flex-col p-6 rounded-lg"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <img
               className="w-32 h-32 rounded-full cursor-pointer hover:translate-y-1"
               src={team1}
@@ -44,7 +48,11 @@ const Team = () => {
               <FaYoutube className="cursor-pointer hover:text-blue-600 hover:translate-y-1" />
             </div>
           </div>
-          <div className="bg-white flex justify-center items-center flex-col p-6 rounded-lg">
+          <div
+            className="bg-white flex justify-center items-center flex-col p-6 rounded-lg"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <img
               className="w-32 h-32 rounded-full cursor-pointer hover:translate-y-1"
               src={team2}
@@ -67,7 +75,11 @@ const Team = () => {
               <FaYoutube className="cursor-pointer hover:text-blue-600 hover:translate-y-1" />
             </div>
           </div>
-          <div className="bg-white flex justify-center items-center flex-col p-6 rounded-lg">
+          <div
+            className="bg-white flex justify-center items-center flex-col p-6 rounded-lg"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <img
               className="w-32 h-32 rounded-full cursor-pointer hover:translate-y-1"
               src={team3}
@@ -90,7 +102,11 @@ const Team = () => {
               <FaYoutube className="cursor-pointer hover:text-blue-600 hover:translate-y-1" />
             </div>
           </div>
-          <div className="bg-white flex justify-center items-center flex-col p-6 rounded-lg">
+          <div
+            className="bg-white flex justify-center items-center flex-col p-6 rounded-lg"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <img
               className="w-32 h-32 rounded-full cursor-pointer hover:translate-y-1"
               src={team4}

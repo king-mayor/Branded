@@ -4,14 +4,18 @@ const Hero = () => {
   return (
     <div className="pt-14">
       <div className="flex justify-center items-center bg-blue-600 py-20 lg:flex-row flex-col">
-        <div>
+        <div data-aos="zoom-in-right" data-aos-duration="2000">
           <img
             className="md:w-[500px] md:h-[450px] w-[300px] h-[300px]"
             src={team3}
             alt="hero-img"
           />
         </div>
-        <div className="md:w-[500px] w-[300px] bg-white md:py-20 md:px-12 py-4 px-6">
+        <div
+          className="md:w-[500px] w-[300px] bg-white md:py-20 md:px-12 py-4 px-6"
+          data-aos="zoom-in-left"
+          data-aos-duration="2000"
+        >
           <h1 className="text-blue-600 md:text-6xl text-3xl font-bold font-roboto py-12">
             Branding<br></br>Agency
           </h1>

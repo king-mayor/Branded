@@ -26,15 +26,19 @@ const About = () => {
         <Navbar />
       </div>
       <div className="">
-        <div className="flex justify-center lg:flex-row flex-col items-center my-24">
-          <div className="">
+        <div className="flex justify-center lg:flex-row flex-col items-center my-24 overflow-x-hidden">
+          <div className="" data-aos="slide-right" data-aos-duration="2000">
             <img
               className="lg:w-full lg:h-[600px] w-full"
               src={background1}
               alt="Member"
             />
           </div>
-          <div className="bg-gray-600 lg:w-[500px] lg:h-[600px] w-full p-10">
+          <div
+            className="bg-gray-600 lg:w-[500px] lg:h-[600px] w-full p-10"
+            data-aos="slide-left"
+            data-aos-duration="2000"
+          >
             <h1 className="lg:text-4xl text-2xl font-bold font-roboto uppercase text-gray-100 text-center">
               Our story
             </h1>
@@ -51,7 +55,7 @@ const About = () => {
         </div>
         {/* {Tools Section} */}
         <div className="flex justify-around items-center md:flex-nowrap flex-wrap lg:gap-0 gap-10">
-          <div className="w-64">
+          <div className="w-64" data-aos="zoom-in-up" data-aos-duration="2000">
             <LuConstruction className="text-5xl font-bold text-gray-500" />
             <h2 className="text-3xl font-bold font-roboto text-gray-600 py-2">
               lorem ipsum
@@ -61,7 +65,7 @@ const About = () => {
               saepe eveniet nesciunt cum, et aliquid.
             </p>
           </div>
-          <div className="w-64">
+          <div className="w-64" data-aos="zoom-in-up" data-aos-duration="2000">
             <MdConstruction className="text-5xl font-bold text-gray-500" />
             <h2 className="text-3xl font-bold font-roboto text-gray-600 py-2">
               lorem ipsum
@@ -71,7 +75,7 @@ const About = () => {
               saepe eveniet nesciunt cum, et aliquid.
             </p>
           </div>
-          <div className="w-64">
+          <div className="w-64" data-aos="zoom-in-up" data-aos-duration="2000">
             <SiProtools className="text-5xl font-bold text-gray-500" />
             <h2 className="text-3xl font-bold font-roboto text-gray-600 py-2">
               lorem ipsum
@@ -81,7 +85,7 @@ const About = () => {
               saepe eveniet nesciunt cum, et aliquid.
             </p>
           </div>
-          <div className="w-64">
+          <div className="w-64" data-aos="zoom-in-up" data-aos-duration="2000">
             <MdOutlineEngineering className="text-5xl font-bold text-gray-500" />
             <h2 className="text-3xl font-bold font-roboto text-gray-600 py-2">
               lorem ipsum
@@ -93,7 +97,11 @@ const About = () => {
           </div>
         </div>
         {/* {Preconstruction Planning} */}
-        <div className="flex my-20 lg:justify-start lg:flex-row flex-col">
+        <div
+          className="flex my-20 lg:justify-start lg:flex-row flex-col"
+          data-aos="zoom-in-right"
+          data-aos-duration="2000"
+        >
           <div className="">
             <img
               className="lg:w-[600px] lg:h-[500px] w-full"
@@ -117,7 +125,11 @@ const About = () => {
           </div>
         </div>
         {/* {Architectural Modelling} */}
-        <div className="flex my-20 lg:justify-end lg:flex-row flex-col-reverse">
+        <div
+          className="flex my-20 lg:justify-end lg:flex-row flex-col-reverse"
+          data-aos="zoom-in-left"
+          data-aos-duration="2000"
+        >
           <div className="bg-gray-600 lg:w-[500px] lg:h-[500px] w-full p-10">
             <h1 className="text-4xl font-bold text-gray-100 font-roboto text-center">
               Architectural Modelling
@@ -147,7 +159,11 @@ const About = () => {
             </h1>
           </div>
           <div className="flex justify-center text-center lg:flex-nowrap flex-wrap gap-10">
-            <div className="bg-gray-600 text-gray-100">
+            <div
+              className="bg-gray-600 text-gray-100"
+              data-aos="zoom-in-up"
+              data-aos-duration="2000"
+            >
               <img className="w-80 h-80" src={worker1} alt="founder1" />
               <h2 className="text-3xl font-bold font-roboto py-6">
                 Alex Miller
@@ -160,7 +176,11 @@ const About = () => {
                 <FaLinkedinIn className="text-3xl font-bold text-gray-100 cursor-pointer hover:text-red-500" />
               </div>
             </div>
-            <div className="bg-gray-600 text-gray-100">
+            <div
+              className="bg-gray-600 text-gray-100"
+              data-aos="zoom-in-up"
+              data-aos-duration="2000"
+            >
               <img className="w-80 h-80" src={worker2} alt="founder1" />
               <h2 className="text-3xl font-bold font-roboto py-6">
                 Rob Manson
@@ -173,7 +193,11 @@ const About = () => {
                 <FaLinkedinIn className="text-3xl font-bold text-gray-100 cursor-pointer hover:text-red-500" />
               </div>
             </div>
-            <div className="bg-gray-600 text-gray-100">
+            <div
+              className="bg-gray-600 text-gray-100"
+              data-aos="zoom-in-up"
+              data-aos-duration="2000"
+            >
               <img className="w-80 h-80" src={worker3} alt="founder1" />
               <h2 className="text-3xl font-bold font-roboto py-6">
                 James Bricks
@@ -186,7 +210,11 @@ const About = () => {
                 <FaLinkedinIn className="text-3xl font-bold text-gray-100 cursor-pointer hover:text-red-500" />
               </div>
             </div>
-            <div className="bg-gray-600 text-gray-100">
+            <div
+              className="bg-gray-600 text-gray-100"
+              data-aos="zoom-in-up"
+              data-aos-duration="2000"
+            >
               <img className="w-80 h-80" src={team4} alt="founder1" />
               <h2 className="text-3xl font-bold font-roboto py-6">
                 Rebbeca Lissner
@@ -203,7 +231,11 @@ const About = () => {
         </div>
         {/* {Testimonial Section} */}
         <div className="bg-slate-600 py-12">
-          <div className="flex flex-col justify-center items-center text-center px-12">
+          <div
+            className="flex flex-col justify-center items-center text-center px-12"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <div>
               <h1 className="font-bold lg:text-3xl text-xl font-roboto text-gray-400">
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit.

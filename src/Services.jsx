@@ -11,7 +11,7 @@ const Services = () => {
       <div>
         <Navbar />
       </div>
-      <div className="flex lg:justify-around lg:flex-row flex-col-reverse items-center my-20 bg-blue-600 py-14 lg:gap-0 gap-10">
+      <div className="flex lg:justify-around lg:flex-row flex-col-reverse items-center my-20 bg-blue-600 py-14 lg:gap-0 gap-10 px-10">
         <div
           className="lg:w-1/2 w-full lg: lg:px-0 px-8"
           data-aos="zoom-in-right"
@@ -40,7 +40,7 @@ const Services = () => {
             alt="services-bg"
           />
           <div
-            className="flex text-center pt-8 justify-around"
+            className="flex text-center pt-8 justify-around gap-4"
             data-aos="zoom-in-up"
             data-aos-duration="2000"
           >
@@ -48,7 +48,7 @@ const Services = () => {
               <h1 className="lg:text-4xl text-2xl font-bold font-roboto text-gray-100">
                 450+
               </h1>
-              <p className="lg:text-xl text-lg font-semibold text-gray-100 font-roboto py-3 capitalize">
+              <p className="lg:text-xl text-md font-semibold text-gray-100 font-roboto py-3 capitalize">
                 projects done
               </p>
             </div>
@@ -56,7 +56,7 @@ const Services = () => {
               <h1 className="lg:text-4xl text-2xl font-bold font-roboto text-gray-100">
                 1.5k+
               </h1>
-              <p className="lg:text-xl text-lg font-semibold text-gray-100 font-roboto py-3 capitalize">
+              <p className="lg:text-xl text-md font-semibold text-gray-100 font-roboto py-3 capitalize">
                 active users
               </p>
             </div>
@@ -64,7 +64,7 @@ const Services = () => {
               <h1 className="lg:text-4xl text-2xl font-bold font-roboto text-gray-100">
                 850+
               </h1>
-              <p className="lg:text-xl text-lg font-semibold text-gray-100 font-roboto py-3 capitalize">
+              <p className="lg:text-xl text-md font-semibold text-gray-100 font-roboto py-3 capitalize">
                 lives impacted
               </p>
             </div>
@@ -72,7 +72,7 @@ const Services = () => {
               <h1 className="lg:text-4xl text-2xl font-bold font-roboto text-gray-100">
                 10k+
               </h1>
-              <p className="lg:text-xl text-lg font-semibold text-gray-100 font-roboto py-3 capitalize">
+              <p className="lg:text-xl text-md font-semibold text-gray-100 font-roboto py-3 capitalize">
                 satisfied clients
               </p>
             </div>
@@ -117,9 +117,9 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="bg-blue-600 py-4">
-        <h2 className="text-lg font-roboto font-bold text-gray-100 text-center">
-          Designed & Developed by: Mayowa Odegbaro..
+      <div className="bg-gray-200 py-4">
+        <h2 className="text-md font-roboto font-bold text-gray-500 text-center">
+          &copy;2024 Mayor Odegbaro
         </h2>
       </div>
       <div>

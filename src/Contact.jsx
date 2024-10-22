@@ -107,9 +107,9 @@ const Contact = () => {
         </div>
       </div>
       {/* {Dedication} */}
-      <div className="bg-gray-600">
-        <h2 className="text-xl font-bold font-roboto text-gray-100 text-center py-3">
-          Designed & Developed by: Mayowa Odegbaro
+      <div className="">
+        <h2 className="text-md font-bold font-roboto text-gray-600 text-center py-3">
+          &copy;2024 Mayor Odegbaro
         </h2>
       </div>
       <div>

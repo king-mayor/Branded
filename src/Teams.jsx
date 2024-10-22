@@ -194,8 +194,8 @@ const Teams = () => {
           data-aos="zoom-in-up"
           data-aos-duration="2000"
         >
-          <h2 className="text-lg font-roboto font-bold text-gray-100 text-center">
-            Designed & Developed by: Mayowa Odegbaro..
+          <h2 className="text-md font-roboto font-bold text-gray-100 text-center">
+            &copy;2024 Mayor Odegbaro..
           </h2>
         </div>
         <div>

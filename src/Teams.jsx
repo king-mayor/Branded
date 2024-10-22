@@ -53,7 +53,7 @@ const Teams = () => {
                 data-aos-duration="2000"
               >
                 <img
-                  className="lg:w-64 lg:h-64 w-full"
+                  className="lg:w-64 h-64 w-full"
                   src={guy1}
                   alt="designer1"
                 />
@@ -73,7 +73,7 @@ const Teams = () => {
                 data-aos-duration="2000"
               >
                 <img
-                  className="lg:w-64 lg:h-64 w-full"
+                  className="lg:w-64 h-64 w-full"
                   src={babe1}
                   alt="designer2"
                 />
@@ -93,7 +93,7 @@ const Teams = () => {
                 data-aos-duration="2000"
               >
                 <img
-                  className="lg:w-64 lg:h-64 w-full"
+                  className="lg:w-64 h-64 w-full"
                   src={guy2}
                   alt="designer3"
                 />
@@ -113,7 +113,7 @@ const Teams = () => {
                 data-aos-duration="2000"
               >
                 <img
-                  className="lg:w-64 lg:h-64 w-full"
+                  className="lg:w-64 h-64 w-full"
                   src={guy4}
                   alt="designer4"
                 />
@@ -143,7 +143,7 @@ const Teams = () => {
                 data-aos-duration="2000"
               >
                 <img
-                  className="lg:w-64 lg:h-64 w-full"
+                  className="lg:w-64 h-64 w-full"
                   src={guy3}
                   alt="designer1"
                 />
@@ -163,7 +163,7 @@ const Teams = () => {
                 data-aos-duration="2000"
               >
                 <img
-                  className="lg:w-64 lg:h-64 w-full"
+                  className="lg:w-64 h-64 w-full"
                   src={babe2}
                   alt="designer2"
                 />
@@ -183,7 +183,7 @@ const Teams = () => {
                 data-aos-duration="2000"
               >
                 <img
-                  className="lg:w-64 lg:h-64 w-full"
+                  className="lg:w-64 h-64 w-full"
                   src={guy5}
                   alt="designer3"
                 />
@@ -203,7 +203,7 @@ const Teams = () => {
                 data-aos-duration="2000"
               >
                 <img
-                  className="lg:w-64 lg:h-64 w-full"
+                  className="lg:w-64 h-64 w-full"
                   src={babe4}
                   alt="designer4"
                 />

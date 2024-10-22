@@ -8,7 +8,7 @@ const BrandContact = () => {
     <div className="flex justify-center lg:flex-row flex-col items-center my-14 gap-10">
       <div data-aos="zoom-in-right" data-aos-duration="2000">
         <div className="flex gap-8 my-8 lg:flex-nowrap flex-wrap justify-center">
-          <div className="bg-gray-200 text-center flex  flex-col justify-center items-center p-8 w-64 h-64 rounded-lg">
+          <div className="bg-gray-200 text-center flex  flex-col justify-center items-center p-8 lg:w-64 lg:h-64 w-full lg:mx-0 mx-10 rounded-lg">
             <FaLocationDot className="text-5xl text-red-500 font-bold cursor-pointer hover:text-blue-600" />
             <h2 className="text-2xl font-bold font-roboto text-gray-600 py-2">
               Our Main Office
@@ -17,7 +17,7 @@ const BrandContact = () => {
               SoHo 94 Broadway St<br></br> New York, NY 1001
             </p>
           </div>
-          <div className="bg-gray-200 text-center flex  flex-col justify-center items-center p-8 w-64 h-64 rounded-lg">
+          <div className="bg-gray-200 text-center flex  flex-col justify-center items-center p-8 lg:w-64 lg:h-64 w-full lg:mx-0 mx-10 rounded-lg">
             <FaPhoneVolume className="text-5xl text-red-500 font-bold cursor-pointer hover:text-blue-600" />
             <h2 className="text-2xl font-bold font-roboto text-gray-600 py-2">
               Phone Number
@@ -28,14 +28,14 @@ const BrandContact = () => {
           </div>
         </div>
         <div className="flex gap-8 lg:flex-nowrap flex-wrap justify-center">
-          <div className="bg-gray-200 text-center flex  flex-col justify-center items-center p-8 w-64 h-64 rounded-lg">
+          <div className="bg-gray-200 text-center flex  flex-col justify-center items-center p-8 lg:w-64 w:h-64 lg:mx-0 w-full mx-10 rounded-lg">
             <FaFax className="text-5xl text-red-500 font-bold cursor-pointer hover:text-blue-600" />
             <h2 className="text-2xl font-bold font-roboto text-gray-600 py-2">
               Fax
             </h2>
             <p className="text-xl font-roboto text-grey-600">1-234-567-8900</p>
           </div>
-          <div className="bg-gray-200 text-center flex  flex-col justify-center items-center p-8 w-64 h-64 rounded-lg">
+          <div className="bg-gray-200 text-center flex  flex-col justify-center items-center p-8 lg:w-64 lg:h-64 lg:mx-0 mx-10 w-full rounded-lg">
             <MdMarkEmailRead className="text-5xl text-red-500 font-bold cursor-pointer hover:text-blue-600" />
             <h2 className="text-2xl font-bold font-roboto text-gray-600 py-2">
               Email

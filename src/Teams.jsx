@@ -46,13 +46,17 @@ const Teams = () => {
                 meet our designers
               </h1>
             </div>
-            <div className="flex lg:justify-center lg:flex-row flex-col items-center gap-8">
+            <div className="flex lg:justify-center lg:flex-row flex-col items-center gap-8 lg:mx-0 mx-10">
               <div
                 className="lg:w-1/4 w-full"
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <img className="w-64 h-64" src={guy1} alt="designer1" />
+                <img
+                  className="lg:w-64 lg:h-64 w-full"
+                  src={guy1}
+                  alt="designer1"
+                />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   nicolas wang
                 </h2>
@@ -68,7 +72,11 @@ const Teams = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <img className="w-64 h-64" src={babe1} alt="designer2" />
+                <img
+                  className="lg:w-64 lg:h-64 w-full"
+                  src={babe1}
+                  alt="designer2"
+                />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   caitling king
                 </h2>
@@ -84,7 +92,11 @@ const Teams = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <img className="w-64 h-64" src={guy2} alt="designer3" />
+                <img
+                  className="lg:w-64 lg:h-64 w-full"
+                  src={guy2}
+                  alt="designer3"
+                />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   zaid schwartz
                 </h2>
@@ -100,7 +112,11 @@ const Teams = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <img className="w-64 h-64" src={guy4} alt="designer4" />
+                <img
+                  className="lg:w-64 lg:h-64 w-full"
+                  src={guy4}
+                  alt="designer4"
+                />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   marco kelly
                 </h2>
@@ -114,7 +130,7 @@ const Teams = () => {
             </div>
           </div>
           {/* {Developer Section} */}
-          <div className="flex flex-col justify-center items-center py-20">
+          <div className="flex flex-col justify-center items-center py-20 lg:mx-0 mx-10">
             <div>
               <h1 className="lg:text-4xl text-2xl font-bold font-roboto text-gray-600 capitalize py-4">
                 meet our developers
@@ -126,7 +142,11 @@ const Teams = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <img className="w-64 h-64" src={guy3} alt="designer1" />
+                <img
+                  className="lg:w-64 lg:h-64 w-full"
+                  src={guy3}
+                  alt="designer1"
+                />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   nicolas Gibbons
                 </h2>
@@ -142,7 +162,11 @@ const Teams = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <img className="w-64 h-64" src={babe2} alt="designer2" />
+                <img
+                  className="lg:w-64 lg:h-64 w-full"
+                  src={babe2}
+                  alt="designer2"
+                />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   sienna hewitt
                 </h2>
@@ -158,7 +182,11 @@ const Teams = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <img className="w-64 h-64" src={guy5} alt="designer3" />
+                <img
+                  className="lg:w-64 lg:h-64 w-full"
+                  src={guy5}
+                  alt="designer3"
+                />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   orlando canno
                 </h2>
@@ -174,7 +202,11 @@ const Teams = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <img className="w-64 h-64" src={babe4} alt="designer4" />
+                <img
+                  className="lg:w-64 lg:h-64 w-full"
+                  src={babe4}
+                  alt="designer4"
+                />
                 <h2 className="text-2xl font-roboto text-gray-600 font-bold capitalize">
                   zahra christensen
                 </h2>

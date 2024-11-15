@@ -1,4 +1,4 @@
-import react, { useEffect } from "react";
+import react, { useEffect, useState } from "react";
 import Brand from "./Brand";
 import BrandContact from "./BrandContact";
 import Contact from "./Contact";
@@ -17,22 +17,36 @@ import Home from "./Home";
 import About from "./About";
 import Services from "./Services";
 import Teams from "./Teams";
+import { PacmanLoader } from "react-spinners";
+
 function App() {
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     AOS.init();
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
   }, []);
   return (
-    <main className="overflow-x-hidden">
-      <Navbar />
-      <Hero />
-      <Hello />
-      <Brand />
-      <Team />
-      <BrandContact />
-      <Footer />
-      <Dedication />
-      <ScrollToTop />
-    </main>
+    <>
+      {loading ? (
+        <div className="flex justify-center items-center h-screen w-full">
+          <PacmanLoader color="red" size={36} />
+        </div>
+      ) : (
+        <main className="overflow-x-hidden">
+          <Navbar />
+          <Hero />
+          <Hello />
+          <Brand />
+          <Team />
+          <BrandContact />
+          <Footer />
+          <Dedication />
+          <ScrollToTop />
+        </main>
+      )}
+    </>
   );
 }
 
